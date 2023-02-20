@@ -6,5 +6,8 @@ if (capitalize('hexlet') !== 'Hexlet') {
 if (capitalize('') !== '') {
   throw new Error('Capitalize function eror');
 }
+if (capitalize(' hexlet') !== 'Hexlet') {
+  throw new Error('Capitalize function eror');
+}
 
 console.log('Tests passed');
